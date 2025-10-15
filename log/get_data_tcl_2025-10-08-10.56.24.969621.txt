@@ -1,0 +1,35 @@
+[2025-10-08T10:56:25] UID: 0201333125680807102000168
+Environment: prod
+URL: https://vsintra.rd.go.th/rd-common-tcl-service/tcl/getTaxFormInformation2/vatpos?uid=0201333125680807102000168
+Status: 200
+Response:
+{
+    "responseStatus": "OK",
+    "responseData": {
+        "formDetails": [
+            {
+                "UID": "0201333125680807102000168",
+                "formStatusCode": "ZN",
+                "DLN": "ภพ3002013331030220411022568080702000100",
+                "taxType": "005",
+                "formCode": "ภพ30",
+                "TIN": "1780621331",
+                "NID": "3100400647102",
+                "branch": "00000",
+                "ltoStatus": "0",
+                "homeOfficeCode": "03022041",
+                "periodForm": null,
+                "periodTo": "072568",
+                "taxAmount": "64.77",
+                "penaltyAmount": "0.00",
+                "surchargeAmount": "0.00",
+                "localTaxAmount": "0.00",
+                "totalPayAmount": "64.77",
+                "refundStatus": "2",
+                "effectiveDate": "07082568"
+            }
+        ]
+    },
+    "responseError": null
+}
+--------------------------------------------------------------------------------

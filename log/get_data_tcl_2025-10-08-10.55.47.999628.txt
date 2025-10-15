@@ -1,0 +1,14 @@
+[2025-10-08T10:55:48] UID: 0201333125680807102000168
+Environment: uat
+URL: https://vsintra-uat.rd.go.th/rd-common-tcl-service/tcl/getTaxFormInformation2/vatpos?uid=0201333125680807102000168
+Status: 200
+Response:
+{
+    "responseStatus": "TCL-API115",
+    "responseData": null,
+    "responseError": {
+        "errorTitle": "ไม่สามารถค้นหาเลขประจำเอกสาร (FID) ได้",
+        "errorDescription": "ไม่สามารถค้นหาเลขประจำเอกสาร (FID) ได้\nข้อมูลที่เข้ามามีความผิดพลาด\nกรุณาทำรายการอีกครั้ง ถ้าหากยังไม่สามารถทำรายการได้ ให้ติดต่อผู้ดูแลระบบ เพื่อแก้ไขปัญหา\n-\n-\n"
+    }
+}
+--------------------------------------------------------------------------------
