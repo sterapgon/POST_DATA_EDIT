@@ -94,3 +94,10 @@ python chk_nid.sta.py --environment uat --nids-file nid.txt
 - ก่อนรันในระบบจริง ควรทดลองกับ environment `uat` พร้อมตรวจสอบ log ที่สร้างขึ้น
 - ไฟล์ log เดิมที่ไม่ต้องการสามารถย้ายหรือจัดเก็บเพื่อป้องกันการสะสมของข้อมูลขนาดใหญ่ ทั้งในรูปแบบ `.txt` และ `.csv`
 
+## tqr010.py
+สคริปต์นี้ใช้เรียก API VATQR010JobAPIService ด้วย payload ที่กำหนด typePreProcess เป็น N และดึงเลข NID จากไฟล์ nid.txt พร้อมบันทึกผลลง tqr010.log และแสดงบนหน้าจอ.
+
+### คำสั่งใช้งาน
+```powershell
+python tqr010.py
+```
